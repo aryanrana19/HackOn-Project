@@ -10,7 +10,7 @@
 <body  style="overflow: hidden;">
     <section class="landing-section">
         <!-- NAV SECTION -->
-        <nav class="navbar">
+        <nav class="navbar" id="navbar">
             <div class="nav-menu">
                 <a href="index.html">Home</a>
                 <a href="duels.html">Duels</a>
@@ -20,10 +20,25 @@
 
         <!-- LANDING BODY -->
         <div class="landing-body">
-            <div class="p1-area">
-              
+
+          <div class="start-card" id="start-card">
+            <h1>Are you Ready?</h1>
+            <button onclick="startDuel()" id="start-duel-btn">Start</button>
+          </div>
+
+
+            <div class="p1-area player">
+              <img src="https://static.vecteezy.com/system/resources/previews/006/487/917/original/man-avatar-icon-free-vector.jpg" alt="">
+              <h2>You</h2>
+
             </div>
-            <div class="p2-area">
+
+            <!-- <div class="gap-line"></div> -->
+
+            <div class="p2-area player">
+              <img src="https://static.vecteezy.com/system/resources/previews/001/993/889/non_2x/beautiful-latin-woman-avatar-character-icon-free-vector.jpg" alt="">
+              <!-- <h2>Waiting for Player 2...</h2> -->
+              <h2>Player 2</h2>
 
             </div>
         </div>
