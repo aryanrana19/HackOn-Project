@@ -74,7 +74,7 @@ body {
     position: absolute;
     width: 0;
     height: 3px;
-    bottom: 25px;
+    bottom: 15px;
     left: 0;
     background-color: currentColor;
     transition: width 0.2s ease-in;
